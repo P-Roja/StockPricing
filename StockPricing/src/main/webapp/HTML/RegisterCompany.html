@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="Style/StockStyle.css">
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+   <a  href="ImportData.html">Import Data</a>
+  <a href="#">Manage Company</a>
+  <a href="#">Manage Exchange</a>
+   <a href="#">Update IPO Details</a>
+<div id="navbar" style = "float:right">
+  <a id="anch" href="javascript:void(0)" class="btn btn-primary" target="_blank" href="#">Logout</a>
+
+  
+</div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div  id="content">
+
+<br><br><h4 align="center">Create New Company</h4><br>
+ 
+<table align="center" cellpadding = "10">
+
+<tr>
+<td>Comapny Name</td>
+<td> <input id="companyName" name="companyName" type="text"  required>
+</td>
+</tr>
+
+<tr>
+<td>CEO Name & Board Members</td>
+<td><input id="ceoName" name="ceoName" type="text"  required>
+
+</td>
+</tr>
+
+<tr>
+<td>TurnOver</td>
+<td><input id="turnOver" name="turnOver" type="text"  required></td>
+</tr>
+
+<tr>
+<td>Brief Description</td>
+<td>
+<input id="briefDescription" name="briefDescription" type="text"  required>
+</td>
+</tr>
+ 
+
+<tr>
+<td>IPO Date</td>
+<td><input id="ipoDate" name="ipoDate" type="text"  required>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>...any other fields...
+</td>
+</tr>
+
+<tr>
+<td></td><td>
+<input type="submit"  class="btn btn-primary" id="anch" value="Save"></button>
+</td>
+</tr>
+</table> 
+</div>
+
+
+</body>
+</html>
+
+
+
